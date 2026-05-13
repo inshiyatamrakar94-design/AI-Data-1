@@ -1,0 +1,10 @@
+Metric,Value
+Before Row Count,101
+After Row Count,97
+Null Values Detected,1
+Duplicate Rows Detected,1
+Type Mismatches Detected,1
+Out-of-Range Values Detected,1
+Inconsistent Strings Detected,100
+Total Issues Found,104
+Total Issues Fixed,4
