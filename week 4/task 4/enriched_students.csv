@@ -1,0 +1,15 @@
+name,score,grade,passed,score_category,rank
+Jack,105.0,A,True,High,1.0
+Dave,95.0,A,True,High,2.0
+Alice,92.0,A,True,High,3.0
+Unknown,88.0,B,True,High,4.0
+Alice,85.0,B,True,High,5.0
+Bob,78.0,B,True,Medium,6.0
+Hannah,72.0,C,True,Medium,7.0
+Ian,60.0,C,True,Medium,8.0
+Frank,55.0,D,True,Medium,9.0
+Kyle,40.0,F,False,Low,10.0
+Charlie,0.0,F,False,Low,11.0
+Eve,0.0,F,False,Low,11.0
+Ghost,0.0,F,False,Low,11.0
+Linda,0.0,F,False,Low,11.0
