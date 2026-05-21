@@ -1,0 +1,54 @@
+TASK 3 ASSIGNMENT: DATA CORRELATION ANALYSIS REPORT
+CORELATION ANALYSIS SCRIPT
+
+ ||| Top 3 Strongest and Weakest Correlations |||
+
+Based on the absolute values in the output, the unique correlation pairs are:
+
+ |||Strongest Pairs (Strong Positive Relationships):|||
+
+study_hours & score (0.87): Strongest link. More studying heavily drives higher exam scores.
+
+score & passed (0.76): Highly correlated because passing depends directly on getting a high score.
+
+study_hours & passed (0.66): Strong link. Studying more strongly increases the chance of passing.
+
+ ||| Weakest Pairs (Little to No Linear Relationship):|||
+
+sleep_hours & score (0.003): Virtually zero. Sleep duration had no direct linear impact on the final grades.
+
+sleep_hours & study_hours (0.06): Extremely weak. Students didn't significantly sacrifice sleep to study more.
+
+sleep_hours & passed (0.09): Weak relationship. Sleep habits alone didn't determine passing.
+
+
+
+
+
+||| Task Questions Answered |||
+
+Does more study always mean a higher score?
+
+No. While the correlation is very strong (0.87), it is not a perfect 1.0. This is because random noise was added to the data logic to simulate real-life variables (like test anxiety or luck).
+    
+What does the data actually say?
+
+The data states that while more study hours do not guarantee a higher score for every individual,  it drastically increases the statistical probability of scoring higher and passing the class on average.
+
+
+BONUS QUESTION: Do passed/failed students form clusters?
+
+ Yes. Because study hours and scores are highly correlated (0.87), visualizing the data with a hue for "passed" reveals two distinct clusters.
+ Passing students form a dense cluster in the upper-right region (high study, high score), while failing students isolate in the bottom-left region (low study, low score).
+ A thin overlap exists in the middle due to the random noise injected into the dataset.
+
+
+
+
+Data Insights (From Descriptive Statistics)
+
+The average score of the 50 students was 56.68%.
+The student who studied the least clocked 2.37 hours,
+ while the hardest worker studied 19.45 hours.
+Attendance ranged from a low of 60.27% to a high of 98.87%.
+

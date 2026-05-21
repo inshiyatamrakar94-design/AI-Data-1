@@ -1,0 +1,19 @@
+========================================================================
+EXPLORATORY DATA ANALYSIS REPORT: GLOBAL AUTOMOTIVE TRANSITION TRANSCRIPTS
+========================================================================
+
+1. DATASET PROPERTIES: The processed database covers 55 row observations tracing key global vehicle markets over time.
+
+2. DATA CLEANLINESS: Post-cleaning frameworks confirm zero missing parameters or null value entries across fields.
+
+3. ADOPTION PATHWAYS: EV expansion trends show significant variance, with markets like Norway showing massive, rapid baseline shifts.
+
+4. FUEL REVERSALS: Feature engineering highlights a strict downward trend in petrol and diesel share as electric alternatives expand.
+
+5. DISTRIBUTION PROFILE: Histograms tracking combustion fuel remnants remain heavily left-skewed, showing lingering fossil fuel dominance in early eras.
+
+6. CORRELATION FACTORING: The tracking vectors show an intense positive correlation over time for EV share, with an equivalent drop in fossil fuels.
+
+7. PHASING LIFECYCLES: Box plot group analysis highlights that the median EV market presence dramatically escalated after the 2020 mass adoption threshold.
+
+8. BONUS PAIRPLOT CORRELATIONS: Joint mapping displays tight, linear intersections showing the precise transition boundaries where internal combustion vehicles yield market share.

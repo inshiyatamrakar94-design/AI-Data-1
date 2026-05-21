@@ -1,0 +1,17 @@
+======================================================================
+EXPLORATORY DATA ANALYSIS REPORT: RECIPE & FOOD METRICS
+======================================================================
+
+1. DATA PROFILE:
+   - The dataset consists of 50 recipes with 10 variables extracted per recipe.
+   - The data contains clean numeric entries for times, servings, and ratings with zero missing rows.
+
+2. OBSERVATIONS & INSIGHTS:
+   - Observation 1: Calories per serving show a balanced distribution, clustering heavily between 300 and 400 calories per dish.
+   - Observation 2: Recipes labeled as 'Medium' difficulty generally have a wider spread and higher median cooking time than 'Easy' recipes.
+   - Observation 3: Preparation times vary widely across different world cuisines, with certain Asian cuisines averaging higher prep times due to chopping/marinating requirements.
+   - Observation 4: The correlation heatmap reveals a negligible relationship (-0.05) between a dish's calorie count and its user rating, indicating that healthiness or richness does not dictate popularity.
+   - Observation 5: A clear positive correlation exists between prep time and cook time; recipes that require long preparation steps usually demand longer stovetop or oven times.
+   - Observation 6: Recipe reviews and ratings do not show strong correlation to serving sizes, meaning large-batch family meals and single portions are rated equally well.
+   - Observation 7: The majority of recipes across all cuisines default to a standard profile of 4 to 6 servings.
+   - Observation 8 (Bonus Pairplot Insight): The pairplot shows that 'Easy' recipes are widely distributed across all calorie ranges, proving that low-effort meals can still be highly calorie-dense.

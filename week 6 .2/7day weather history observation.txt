@@ -1,0 +1,16 @@
+Observations From Your Analysis
+
+ Extreme Climate Variation:
+ Cairo exhibits a blazing maximum temperature of 39.9°C, whereas London records a crisp minimum of 12.2°C, highlighting a massive 27.7°C climate gap across hemispheres.
+
+ Weather Volatility:
+ New York shows the highest volatility with a standard deviation of 6.60°C, meaning its spring weather fluctuated drastically over the week compared to stable regions like Sydney.
+
+ True Local Outliers: 
+Sydney flagrantly triggered the IQR outlier rules on May 17 (21.1°C) and May 20 (17.9°C) because its temperatures deviated heavily from its incredibly tight weekly standard deviation of just 0.98°C.
+
+ Massive Rain Anomaly: 
+While 50% of the dataset recorded 0.0 mm of rain, an extreme maximum rain surge of 94.7 mm skewing the dataset indicates a major localized storm event occurred in one of the cities.
+
+ Skewed Distributions:
+ In New York, the mean (27.84°C) is lower than the median (30.6°C), proving that its temperature distribution is negatively skewed by a couple of unusually cold days.
