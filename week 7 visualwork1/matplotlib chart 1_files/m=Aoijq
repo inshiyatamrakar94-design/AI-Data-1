@@ -1,0 +1,8 @@
+"use strict";loaded_g_0(function(_){var window=this;
+_.h("Aoijq");
+var Cad=!!(_.qg[10]&256);var Dad=[],Ead=class extends _.U{constructor(a){super(a.ha);this.response=a}aa(){function a(e,f){_.JWa?(e.removeAttribute("data-bfc"),e.setAttribute("data-bfc-dbg",f)):e.classList.remove("WYczDe")}function b(e){var f=d.oa();for(let g of e)f.aa(g),a(g,"ae");f.log(!0)}var c=_.Bz(this,0,"div",!1),d=_.Lf(_.cy);if(_.pO&&Cad)this.onInit(function(){var e=c.value.querySelectorAll("div[data-bfc]");if(e.length!==0){var f,g=(f=c.value.closest(".h7Tj7e"))!=null?f:c.value.closest(".hICk5e"),k;f=(k=g==null?void 0:
+g.querySelector(".in7vHe"))!=null?k:g==null?void 0:g.querySelector(".yUcYBd");if(!f)b(e);else if(g){var n;k=(n=g.querySelector(".RDmXvc"))!=null?n:g.querySelector(".biJ8pb");n=g.getBoundingClientRect();f=(k!=null?k:f).getBoundingClientRect();let r=new IntersectionObserver(t=>{var u=d.oa();for(let w of t){if(t=w.isIntersecting)t=w.target,t=t.hasAttribute("data-bfc")&&t.classList.contains("WYczDe");t&&(u.aa(w.target),r.unobserve(w.target),a(w.target,"io"))}u.log(!0)},{root:g,rootMargin:`0px 0px -${n.bottom-
+f.top}px 0px`,threshold:0});e.forEach(t=>{r.observe(t)})}}});this.da()}j(){return super.j()}ba(){return Dad}};Ead.prototype.$wa$p2ggSe=function(){return this.ba};Ead.prototype.$wa$QyQmSc=function(){return this.j};Ead.prototype.$wa$kXCA5e=function(){return this.aa};_.T(_.l("Aoijq",[_.Y]),Ead);
+_.q();
+});
+// Google Inc.
